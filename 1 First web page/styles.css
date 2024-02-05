@@ -1,0 +1,88 @@
+/* This is the CSS file, which contains the style that we will apply in our page*/
+
+:root {
+    /* color palette taken from: https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557*/
+    /* CSS HEX */
+    --red-pantone: #e63946ff;
+    --honeydew: #f1faeeff;
+    --non-photo-blue: #a8dadcff;
+    --cerulean: #457b9dff;
+    --berkeley-blue: #1d3557ff;
+}
+
+body {
+    background-color: var(--honeydew);
+}
+
+h1 {
+    font-family: 'Protest Riot', sans-serif;
+    color: var(--berkeley-blue);
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: var(--cerulean);
+}
+
+h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: var(--cerulean);
+}
+
+h5, h6, p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: var(--cerulean);
+}
+
+p {
+    font-style: italic;
+}
+
+hr {
+    background-color: var(--red-pantone);
+    height: 2px;
+    border: none;
+}
+
+ol {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color:#457b9dff;
+    margin-left: 20px; 
+}
+
+ol li {
+    margin-bottom: 3px; /* Adjust the spacing between list items */
+}
+
+table {
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    border-collapse: collapse; /* This stablish if the we want "double" border between cells (separate) which is default or just one line (collapse)*/
+    margin-top: 20px; /* Adjust the margin for the table */
+}
+
+th, td {
+    border: 1px solid #457b9dff; /* Border color for table cells */
+    padding: 10px; /* Adjust the space between the content of an HTML element and its border, for table cells */
+    text-align: center; /* Align text to the left within cells */
+}
+
+th {
+    background-color: #1d3557ff; /* Background color for table header cells */
+    color:#f1faeeff;
+    font-weight: 500;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #457b9dff;
+
+}

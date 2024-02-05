@@ -7,9 +7,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300&family=Protest+Riot&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <title>First Website Example</title>
 </head>
 <body>
-    
+    <h1>Welcome to my website!</h1>
+    <h2>This is an example of the different types of HTML tags we can use.</h2>
+    <hr>
+    <h3>A paragraph:</h3>
+    <p>Explore the different types of HTML tags as we break down their usage and importance in creating well-structured and semantically meaningful content. From headers and paragraphs to lists and hyperlinks, this example website provides hands-on insights into the world of HTML.</p>
+    <h4>Idk what else to write</h4>
+    <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae labore explicabo magnam beatae minus accusantium?</h5>
+    <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, ducimus.</h6>
+    <br>
+
+    <h2>Okay, let's make an ordered list:</h2>
+    <h3>Steps to create a website:</h3>
+    <ol>
+        <li>Set Up Your HTML File:</li>
+        <li>Write the Basic Structure with HTML Tags</li>
+        <li>Add Content with HTML Tags</li>
+        <li>Preview Your Website</li>
+        <li>Enhance and Style with CSS</li>
+    </ol>
+
+    <h2>So...What's the purpose of HTML, CSS?</h2>
+    <h5>(Example of a table)</h5>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Aspect</th>
+                <th>HTML</th>
+                <th>CSS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Purpose</th>
+                <td>Structure of web pages</td>
+                <td>Styling and appearance of web page elements</td>
+            </tr>
+            <tr>
+                <th>Elements</th>
+                <td>Headings, paragraphs, lists, links</td>
+                <td>Selectors, properties, values</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">You will need both to create your website</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br><br>
+
+    <h2>Now let's take a test:</h2>
+    <h3>(Using a form)</h3>
+    <form name="test">
+        <!-- Date type -->
+        <label for="answer1">When did you started learning html/css? (Or when do you want to start?)</label>
+        <input type="date" name="answer1" min="1993-01-01" max="2024-12-31">
+        <br><br>
+        <div>
+            <!-- Text type -->
+            <label for="answer2">What is html for?</label>
+            <textarea name="answer2" type="text" placeholder="Use your own words" cols="50" rows="5" maxlength="100"></textarea>
+        </div>
+        <br><br>
+        <div>
+            <!-- Text type -->
+            <label for="answer3">What is css for?</label>
+            <textarea name="answer3" type="text" placeholder ="Use your own words" cols="50" rows="5" maxlength="100"></textarea>
+        </div>
+        <br><br>
+        <!-- Number type -->
+        <label for="answer4">How many hours do you think it takes to create a website?(Approx)</label>
+        <input name="answer4" type="number" step="2" min="0">
+        <br><br>
+        <!-- Options -->
+        <label for="answer5">Which type of website design would you like to start learning?</label>
+        <select name="answer5">
+            <option value="">Select</option>
+            <option value="RD">Responsive Design</option>
+            <option value="FD">Flat Design</option>
+            <option value="MD">Material Design</option> 
+            <option value="TCD">Typography-Centric Design</option>
+            <option value="ED">E-commerce Design</option>
+        </select>
+        <br><br>
+        <!-- Checkbox (just one option) -->
+        <label for="option">How decided are you to learn?</label>
+        <label for="op1">Not that much</label>
+        <input type="radio" name="option">
+        <label for="op2">Medium interest</label>
+        <input type="radio" name="option">
+        <label for="op3">Very interested</label>
+        <input type="radio" name="option">
+
+        <br><br><br>
+        <h3>Here there is a To-do list about the steps to do to create your websites:</h3>
+        <!-- Checkbox (multi options) -->
+        <label for="stp1">Define Purpose and Goals</label>
+        <input type="checkbox" name="stp1"> <!--checked pone el check por default-->
+        <label for="stp2">Sketch a Wireframe</label>
+        <input type="checkbox" name="stp2">
+        <label for="stp3">Create Project Folder</label>
+        <input type="checkbox" name="stp3" >
+        <label for="stp4">Create HTML File</label>
+        <input type="checkbox" name="stp4" >
+        <label for="stp5">Basic HTML Structure</label>
+        <input type="checkbox" name="stp5" >
+        <label for="stp6">Create Sections</label>
+        <input type="checkbox" name="stp6" >
+        <label for="stp7">Add Text and Elements</label>
+        <input type="checkbox" name="stp7" >
+        <br><br>
+        <input type="submit" name="submit1" value="Submit my answers">
+    </form>
+
+    <hr>
+    <h3>Do you want to learn more?</h3>
+    <h4>Register to get more information:</h4>
+    <form>
+        <!-- Email type -->
+        <label for="email">Email:</label>
+        <input type="email" name="email">
+        <!-- Password type -->
+        <label for="password">Password:</label>
+        <input type="password" name="password">
+        <br>
+        <input type="submit" name="submit2" value="Submit my information">
+    </form>
+    <hr>
+
+    <br><br><br>
+    <h2>Thank you for your time! </h2>
+
+    <br><br><br><br>
 </body>
 </html>
